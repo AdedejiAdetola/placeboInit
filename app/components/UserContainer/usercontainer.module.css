@@ -1,0 +1,7 @@
+.userContainer {
+  background-color: #f5f5f5;
+}
+.flex {
+  display: flex;
+  height: 100%;
+}

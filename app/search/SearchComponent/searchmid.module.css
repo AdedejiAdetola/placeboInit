@@ -1,0 +1,46 @@
+.searchMidContainer {
+  width: 100%;
+  padding: 0 60px;
+  padding-top: 30px;
+  margin-left: 120px;
+}
+
+.resultSort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+
+.sResult {
+  font-size: 24px;
+  color: #1e1e1e;
+}
+
+.sResultSpan {
+  font-weight: 700;
+}
+
+.sortContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sortP {
+  font-size: 16px;
+  margin-right: 26px;
+}
+
+.sortContents {
+  width: 338px;
+}
+
+.sortContents1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sortContents2 {
+  display: flex;
+  justify-content: start;
+}

@@ -1,0 +1,24 @@
+.actionItems {
+  width: 100%;
+  padding: 0 60px;
+  margin-left: 120px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: start;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bigPicture {
+  margin-bottom: 72px;
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,46 @@
+.searchDrugContainer {
+  display: flex;
+  margin-bottom: 30px;
+}
+.image {
+  /* border-radius: 20px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25); */
+  margin-right: 50px;
+}
+
+.heading {
+  color: #1e1e1e;
+  font-size: 20px;
+}
+
+.miniDetails {
+  display: flex;
+  align-items: center;
+  color: #8ea1ae;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  margin: 0 10px;
+}
+
+.drugDetails {
+  display: flex;
+  color: #1e1e1e;
+  font-size: 14px;
+}
+
+.side1 {
+  margin-right: 10px;
+}
+
+.side1 p,
+.side2 p {
+  margin-bottom: 5px;
+}

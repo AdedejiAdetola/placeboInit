@@ -1,0 +1,19 @@
+.loginBody {
+    margin: 60px;
+    color: #380835;
+    margin-bottom: 46px;
+}
+
+.loginImage {
+    margin-bottom: 17px;
+}
+
+.loginHead {
+    font-weight: 700;
+    text-align: center;
+    font-size: 64px;
+    /* margin-top: 17px; */
+    margin-bottom: 50px;
+}
+
+

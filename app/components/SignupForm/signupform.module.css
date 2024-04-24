@@ -1,0 +1,125 @@
+.title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.fname,
+.lname {
+  width: 45%;
+}
+
+.inputGeneral {
+  border: none;
+  border-bottom: 1px solid black; /* Set bottom border */
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  width: 100%;
+  font-size: 16px;
+}
+
+.inputGeneral:focus {
+  outline: none; /* Remove outline on focus */
+  /* border-bottom: 2px solid blue; */
+}
+
+.emailDiv,
+.phoneNumberDiv {
+  margin-bottom: 30px;
+}
+
+.passwordDiv {
+  margin-bottom: 60px;
+}
+
+.flexPhone {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.ccode {
+  width: 30%;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.number {
+  width: 55%;
+  /* border: 2px solid blue; */
+  position: relative;
+}
+
+.errorMessagePhone {
+  position: absolute;
+  top: 35px;
+}
+
+.errorMessageCcode {
+  position: absolute;
+  top: 50px;
+}
+
+.emailDiv,
+.passwordDiv {
+  position: relative;
+}
+
+.positionCheck,
+.positionLoad {
+  position: absolute;
+  right: 0;
+}
+
+.positionCheck {
+  top: 35px;
+}
+
+.positionLoad {
+  top: 45px;
+}
+
+.positionPassword {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.errorStyle {
+  color: red;
+  font-size: 12px;
+}
+
+.btn {
+  background: #380835;
+  background-image: -webkit-linear-gradient(top, #380835, #380835);
+  background-image: -moz-linear-gradient(top, #380835, #380835);
+  background-image: -ms-linear-gradient(top, #380835, #380835);
+  background-image: -o-linear-gradient(top, #380835, #380835);
+  background-image: linear-gradient(to bottom, #380835, #380835);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  border: solid #380835 0px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn:hover {
+  background: #380835;
+  background-image: -webkit-linear-gradient(top, #380835, #380835);
+  background-image: -moz-linear-gradient(top, #380835, #380835);
+  background-image: -ms-linear-gradient(top, #380835, #380835);
+  background-image: -o-linear-gradient(top, #380835, #380835);
+  background-image: linear-gradient(to bottom, #380835, #380835);
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.searchContainer {
+  width: 58%; /* 800px */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ebeced;
+  border-radius: 25px;
+  padding: 0 10px;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+}
+
+.searchInput {
+  background-color: #ebeced;
+  margin-left: 20px;
+  width: 90%;
+  padding: 10px 0;
+  outline: none;
+}

@@ -1,0 +1,21 @@
+.categoryContainer {
+  margin-bottom: 40px;
+}
+.categoryTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.drugCategory {
+  color: #380835;
+  font-size: 32px;
+}
+
+.categorySubtext {
+  font-size: 14px;
+}
+
+.categoryItemFlex {
+  display: flex;
+}
